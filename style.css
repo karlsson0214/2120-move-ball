@@ -1,0 +1,20 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+#frame {
+	background: lightblue;
+	width: 400px;
+	height: 400px;
+	margin: 20px;
+}
+#ball {
+	position: absolute;
+	background: red;
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	left: 45px;
+	top: 45px;
+}
+
