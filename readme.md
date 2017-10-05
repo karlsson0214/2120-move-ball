@@ -12,19 +12,19 @@ Utmaning 1
 
 skriv följande if-sats
 
-  om key är 37
-    flytta bollen 25 pixlar till vänster med koden nedan
-    ball.style.left = ball.offsetLeft - 25 + "px";
+    om key är 37
+        flytta bollen 25 pixlar till vänster med koden nedan
+        ball.style.left = ball.offsetLeft - 25 + "px";
 
-  om key är 39
-    flytta bollen 25 pixlar till höger
+    om key är 39
+        flytta bollen 25 pixlar till höger
 
-  om key är 38
-    flytta bollen 25 pixlar uppåt med koden nedan
-    ball.style.top = ball.offsetTop - 25 + "px";
+    om key är 38
+        flytta bollen 25 pixlar uppåt med koden nedan
+        ball.style.top = ball.offsetTop - 25 + "px";
 
-  om key är 40
-    flytta bollen 25 pixlar nedåt
+    om key är 40
+        flytta bollen 25 pixlar nedåt
 
 ###Problem
 Bollen kan flyttas utanför den blå rektangeln. I nästa utmaning löses detta.
@@ -34,20 +34,20 @@ Utmaning 2
 
 På svenska blandat med JavaScript blir lösningen.
 
-  om key är 37
-    flytta bollen 25 pixlar till vänster med koden nedan
-    ball.style.left = ball.offsetLeft - 25 + "px";
+    om key är 37
+        flytta bollen 25 pixlar till vänster med koden nedan
+        ball.style.left = ball.offsetLeft - 25 + "px";
 
     om boller är för långt till vänster
-      flytta den till vänsterkanten
+        flytta den till vänsterkanten
 
   på samma sätt för de övriga fallen höger, upp, ner
 
 ###tips
 
-  ball.offsetLeft
+    ball.offsetLeft
 
-  ball.offsetTop
+    ball.offsetTop
 
 Utmaning 3 - extra - konstanter
 -----------
@@ -77,13 +77,13 @@ Deklarera två funktioner moveRight och moveUp som sköter förflyttningarna.
 
 Anropet
 
-  moveRight(10);
+    moveRight(10);
 
 flyttar bollen 10 pixlar åt höger.
 
 På samma sätt flyttar anropet
 
-  moveUp(10);
+    moveUp(10);
 
 bollen 10 pixlar uppåt.
 
