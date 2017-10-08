@@ -3,6 +3,7 @@
 	margin: 0;
 }
 #frame {
+	position: relative;
 	background: lightblue;
 	width: 400px;
 	height: 400px;
